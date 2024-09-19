@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Aventura Intergaláctica</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia, enquanto explorava um velho observatório, encontrei um mapa estelar que indicava a localização de um planeta perdido, repleto de recursos valiosos. Decidi embarcar em uma missão para encontrá-lo!</p>
+            <button class="btn-proximo" data-proximo="1">Lunar Station</button>
+            <button class="btn-proximo" data-proximo="2">Planeta Zorax</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada na Lunar Station, onde a primeira pista pode ser encontrada em uma antiga base de pesquisa.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar a base de pesquisa</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para a Terra</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>No planeta Zorax, você descobre uma civilização alienígena. Uma pista no mapa sugere que a entrada para o planeta perdido está em um dos templos antigos. Qual você escolhe investigar?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar o Templo da Sabedoria</button>
+            <button class="btn-proximo" data-proximo="6">Visitar o Templo da Força</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Na base de pesquisa, você encontra um diário que revela que a próxima pista está localizada em um asteroide próximo.</p>
+            <button class="btn-proximo" data-proximo="7">Rumo ao asteroide</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a missão é arriscada demais e volta para a Terra, mas se pergunta o que teria encontrado nas estrelas.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Explorando o Templo da Sabedoria, você descobre um cristal energético que aponta a localização do planeta perdido.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o planeta perdido</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>No Templo da Força, você encontra uma armadilha que o impede de seguir em frente. Você deve voltar!</p>
+            <button class="btn-proximo" data-proximo="8">Retornar e investigar o Templo da Sabedoria</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No asteroide, você encontra uma estação abandonada e um mapa que revela a bifurcação de duas rotas.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela rota à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela rota à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Retornando ao Templo da Sabedoria, você ativa o cristal e descobre a localização do planeta perdido. Vamos lá!</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o planeta perdido</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A rota à esquerda leva você a um campo de asteroides com inscrições antigas que revelam a entrada para o planeta perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o planeta perdido</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>A rota à direita termina em uma nebulosa colorida. Apesar das vistas deslumbrantes, não há sinais do planeta perdido.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar a outra rota</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-planeta-perdido.png" alt="descobrindo um planeta maravilhoso perdido">
+            <p>No planeta perdido, você descobre recursos inimagináveis e decide ajudar a preservar essa maravilha para futuras gerações.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e seguindo a rota à esquerda, você finalmente encontra as inscrições que levam ao planeta perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o planeta perdido</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
