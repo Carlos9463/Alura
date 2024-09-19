@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,7 +82,6 @@
             <button class="btn-proximo" data-proximo="11">Explorar o planeta perdido</button>
         </div>
     </main>
-
     <script src="script.js"></script>
 </body>
 
